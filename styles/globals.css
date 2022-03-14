@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --li-color: #8da9c1;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +21,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* Custom classes */
+
+.m-0-auto {
+  margin: 0 auto;
 }
